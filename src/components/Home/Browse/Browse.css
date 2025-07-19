@@ -1,0 +1,85 @@
+@import url('../../../App.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.browse_bg{
+    background: var(--blackColor);
+}
+
+.browse_name {
+    font-family: Poppins;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.01em;
+    color: var(--whiteColor);
+}
+
+.explore_name {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    color: var(--greyColor);
+}
+
+.card {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.claming_box {
+    height: 70px;
+    border-bottom-right-radius: 19px;
+    border-bottom-left-radius: 19px;
+    background: var(--darkColor);
+}
+
+.claming_name {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiteColor);
+}
+
+.explore_btn {
+    width: 55%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    transition: ease-out 0.5s;
+}
+
+.explore_btn:hover {
+    color: #060317;
+    box-shadow: inset 0 -100px 0 0 var(--whiteColor);
+}
+
+.explore_btn:active {
+    transform: scale(0.9);
+}
+
+.ho:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}

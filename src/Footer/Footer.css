@@ -1,0 +1,131 @@
+@import url('../App.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer_BG{
+    background: var(--blackColor);
+
+}
+
+.foot_BG{
+    background: var(--blackColor);
+    position: fixed;
+    bottom: 0;
+}
+
+.project_style {
+    font-family: Poppins;
+    font-size: 69px;
+    font-weight: 400;
+    line-height: 104px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiteColor);
+}
+
+.project_detail {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiteColor);
+}
+
+.line_style {
+    border-bottom: 1px solid white;
+    margin-top: 80px;
+    display: flex;
+    width: 80%;
+}
+
+.footer_input {
+    background: none;
+    border: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 100%;
+    color: var(--whiteColor);
+}
+
+.curve_style {
+    width: 27%;
+    height: 45px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: var(--primaryColor);
+}
+
+.curve_icon{
+    color: var(--whiteColor);
+}
+
+.voice_style {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+    color: var(--whiteColor);
+}
+
+.voice_style:hover{
+    color: var(--primaryColor);
+}
+
+.for_talent {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    color: var(--whiteColor);
+}
+
+.copyright_icon{
+    color: var(--whiteColor);
+    font-size: 20px;
+    display: inline-block;
+}
+
+.multiple_icons{
+    color: var(--whiteColor);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiple_icons:hover{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background: var(--primaryColor);
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .voice_style {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .voice_style {
+        display: flex;
+        justify-content: center;
+    }
+}

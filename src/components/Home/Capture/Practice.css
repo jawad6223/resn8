@@ -1,0 +1,21 @@
+.navarrow{
+    margin-left: 16%;
+}
+.navarrow_list{
+   color: black;
+}
+.navarrow_list:hover{
+   display: block;
+}
+.dropdown_item-5{
+   position: relative !important;
+}
+.drop-left{
+   display:none;
+   position: absolute !important;
+   top: 0 !important;
+   left: 90% !important;
+}
+.dropdown_item-5:hover .drop-left{
+   display: inline-block;
+}

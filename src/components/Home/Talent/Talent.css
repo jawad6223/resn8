@@ -1,0 +1,190 @@
+@import url('../../../App.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle_styling {
+    width: 100%;
+    height: 310px;
+    border-radius: 24px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(var(--primaryColor) 0% 50%, white 50% 100%) 1;
+}
+
+.img_style {
+    width: 24%;
+}
+
+/* Adjust top position for different screen sizes */
+@media (min-width: 1400px) {
+    .img_style {
+        position: absolute;
+        top: 10px;
+        /* Top position for xxl screens */
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .img_style {
+        position: absolute;
+        top: 70px;
+        /* Top position for xl screens */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img_style {
+        position: absolute;
+        top: 127px;
+        /* Top position for lg screens */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .img_style {
+        position: absolute;
+        top: 128px;
+        /* Top position for md screens */
+        width: 32%;
+    }
+}
+
+@media (max-width: 767px) {
+    .img_style {
+        display: none
+            /* display none for sm screens */
+    }
+}
+
+.talent_styling {
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+}
+
+@media (max-width: 576px) {
+    .talent_styling {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        /* font syling for sm screens */
+    }
+}
+
+.white_circle {
+    border: 1px solid white;
+    width: 70%;
+    height: 64px;
+    border-radius: 6px;
+}
+
+.border_styling {
+    border-radius: 6px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--whiteColor);
+}
+
+.explore_styling {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+}
+
+.learn_btn {
+    width: 70%;
+    height: 64px;
+    border-radius: 6px;
+    border: none;
+    background: var(--primaryColor);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+    transition: ease-out 0.5s;
+}
+
+.learn_btn:hover {
+    color: #060317;
+    box-shadow: inset 0 -100px 0 0 var(--whiteColor);
+}
+
+.learn_btn:active {
+    transform: scale(0.9);
+}
+
+.img_styling {
+    position: absolute;
+    top: 420px;
+    left: 300px;
+}
+
+.img_stl {
+    padding-left: 300px;
+}
+
+.elipse_five_style {
+    top: 45%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .img_styling {
+        position: absolute;
+        top: 420px;
+        left: 150px
+            /* position for sm screens */
+    }
+
+    .img_stl {
+        padding-left: 150px;
+        /* padding for sm screens */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+    .img_styling {
+        position: absolute;
+        top: 420px;
+        left: 150px
+            /* position for sm screens */
+    }
+
+    .img_stl {
+        padding-left: 150px;
+        /* padding for sm screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .img_styling {
+        position: absolute;
+        top: 420px;
+        left: 50px
+            /* position for sm screens */
+    }
+
+    .img_stl {
+        padding-left: 45px;
+        /* padding for sm screens */
+    }
+
+    .elipse_five_style {
+        display: none;
+    }
+}

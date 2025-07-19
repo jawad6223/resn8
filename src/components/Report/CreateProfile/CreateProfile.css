@@ -1,0 +1,82 @@
+@import url('../../../App.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.create_profile{
+    padding-top: 70px;
+    height: 135vh;
+}
+
+.edit_btn {
+    width: 30%;
+    min-width: 100px;
+    height: 32px;
+    border-radius: 4px;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    border: none;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .Accent {
+        margin-top: 1rem;
+    }
+
+    .Gender {
+        margin-top: 1rem;
+    }
+
+    .Upload {
+        margin-top: 1rem;
+    }
+
+    .Tone {
+        margin-top: 1rem;
+    }
+
+    .Profile {
+        margin-top: 1rem;
+    }
+
+    .Youtube {
+        margin-top: 1rem;
+    }
+
+    .Tiktok {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .Accent {
+        margin-top: 1rem;
+    }
+
+    .Gender {
+        margin-top: 1rem;
+    }
+
+    .Upload {
+        margin-top: 1rem;
+    }
+
+    .Tone {
+        margin-top: 1rem;
+    }
+
+    .Profile {
+        margin-top: 1rem;
+    }
+
+    .Youtube {
+        margin-top: 1rem;
+    }
+
+    .Tiktok {
+        margin-top: 1rem;
+    }
+}

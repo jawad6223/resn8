@@ -1,0 +1,165 @@
+@import url('../../../App.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom_support{
+    padding-top: 70px;
+    height: 105vh;
+}
+
+.chat_box {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #1E1C2D;
+}
+
+.chatting_box {
+    width: 100%;
+    background: #0E0927;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mess_style {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+    background: #1E1C2D;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid white;
+}
+
+.time_style {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+}
+
+.reply_style {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+    background: var(--primaryColor);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.tick_icon {
+    color: var(--primaryColor);
+    font-size: 12px;
+}
+
+.chat_line {
+    width: 100%;
+    height: 2px;
+    background: #333333;
+}
+
+.send_circle {
+    min-width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background: var(--primaryColor);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    color: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat_icon {
+    color: var(--primaryColor);
+    font-size: 20px;
+}
+
+.icons {
+    border-right: 2px solid #333333;
+}
+
+.chat_list {
+    width: 100%;
+    padding-bottom: 110px;
+    background: #0E0927;
+    border-radius: 10px;
+}
+
+.search_icon {
+    position: absolute;
+    top: 60%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: var(--whiteColor);
+    font-size: 20px;
+}
+
+.online_circle {
+    position: absolute;
+    left: 80%;
+    bottom: 5%;
+    width: 30%;
+    height: 11px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: green;
+}
+
+.person_style {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+}
+
+.tag_style {
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+}
+
+.no_circle_style {
+    width: 60%;
+    height: 19px;
+    border-radius: 7px;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_name_style {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: var(--whiteColor);
+}
+
